@@ -1,41 +1,80 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
-	"default_encoding": "UTF-8",
-	"default_line_ending": "unix",
-	"detect_indentation": false,
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": false,
-	"file_exclude_patterns":
+	"added_words":
 	[
-		".DS_Store",
-		"Desktop.ini",
-		"*.pyc",
-		"._*",
-		"Thumbs.db",
-		".Spotlight-V100",
-		".Trashes"
+		"Meetup",
+		"wireframes",
+		"GitHub",
+		"metadata",
+		"online",
+		"timeline",
+		"timelines",
+		"Northbrook",
+		"programmatically",
+		"permalinks",
+		"validator",
+		"webpage",
+		"Mirador",
+		"Teenie",
+		"Elysa",
+		"Workflow",
+		"inline",
+		"performative",
+		"workflow",
+		"temporality"
 	],
+	"always_show_minimap_viewport": true,
+	"atomic_save": false,
+	"auto_complete_commit_on_tab": false,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Bright (SL).tmTheme",
 	"folder_exclude_patterns":
 	[
+		".svn",
 		".git",
-		"node_modules"
+		".hg",
+		"CVS",
+		"tmp/class-*",
+		"tmp/es_*",
+		"tmp/jshinter*",
+		"tmp/replace_*",
+		"tmp/static_compiler*",
+		"tmp/template_compiler*",
+		"tmp/tree_merger*",
+		"tmp/coffee_script*",
+		"tmp/concat-tmp*",
+		"tmp/export_tree*",
+		"tmp/sass_compiler*",
+		"node_modules/*",
+		".sass_cache/*"
 	],
 	"font_face": "Monaco",
-	"font_size": 13,
-	"highlight_modified_tabs": true,
-	"hot_exit": false,
-	"line_padding_bottom": 5,
-	"match_brackets": true,
-	"match_brackets_angle": true,
-	"remember_open_files": false,
+	"font_size": 17,
+	"highlight_line": false,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage"
+	],
+	"ignored_words":
+	[
+		"Heroku",
+		"Itinera",
+		"Pandoc",
+		"Ruscha",
+		"S3",
+		"br",
+		"csv",
+		"deacquisition",
+		"documentize",
+		"microauthority"
+	],
 	"rulers":
 	[
 		80
 	],
-	"show_encoding": true,
-	"show_line_endings": true,
+	"save_on_focus_lost": true,
+	"show_errors_inline": false,
 	"tab_size": 2,
-	"translate_tabs_to_spaces": false,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"translate_tabs_to_spaces": true,
+	"use_simple_full_screen": true
 }

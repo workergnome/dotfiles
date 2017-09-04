@@ -1,5 +1,6 @@
 [alias]
 
+
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
@@ -79,6 +80,8 @@
 		fi \
 	}; f"
 
+	dad = !curl -w \"\\n\" https://icanhazdadjoke.com/  && git add
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
@@ -128,10 +131,6 @@
 	changed = green
 	untracked = cyan
 
-[commit]
-
-	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
 
 [diff]
 
@@ -148,10 +147,26 @@
 	# Automatically correct and execute mistyped commands
 	autocorrect = 1
 
+
+
 [merge]
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+	tool = Kaleidoscope
+
+
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustexitcode = true
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope
 
 [push]
 
