@@ -30,6 +30,7 @@ brew "yarn"
 cask "wkhtmltopdf"
 brew "bash-completion2"
 brew "honcho"
+brew "pdflatex"
 mas "1Password", id: 443987910
 mas "Deckset", id: 847496013
 mas "Gitbox", id: 403388357
