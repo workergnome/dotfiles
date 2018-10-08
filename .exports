@@ -3,7 +3,7 @@
 # Make sublime text the default editor.
 export EDITOR='subl';
 
-
+export PYENV_ROOT="$HOME/.pyenv"
 
 # Enable persistent REPL history for `node`.
 export NODE_REPL_HISTORY=~/.node_history;

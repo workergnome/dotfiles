@@ -31,6 +31,7 @@ cask "wkhtmltopdf"
 brew "bash-completion2"
 brew "honcho"
 brew "pdflatex"
+brew "pyenv"
 mas "1Password", id: 443987910
 mas "Deckset", id: 847496013
 mas "Gitbox", id: 403388357
