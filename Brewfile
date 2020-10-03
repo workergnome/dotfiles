@@ -31,11 +31,3 @@ cask "wkhtmltopdf"
 brew "bash-completion2"
 brew "honcho"
 brew "pdflatex"
-brew "pyenv"
-mas "1Password", id: 443987910
-mas "Deckset", id: 847496013
-mas "Gitbox", id: 403388357
-mas "Kaleidoscope", id: 587512244
-mas "Slack", id: 803453959
-mas "Soulver", id: 413965349
-mas "TogglDesktop", id: 957734279
